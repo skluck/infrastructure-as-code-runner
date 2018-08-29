@@ -36,7 +36,7 @@ Provided scripts:
    > ```
 
 - [use-terraform](scripts/use-terraform.sh)
-   > Download terragrunt and/or terragrunt versions to use.
+   > Switch terragrunt and/or terragrunt versions to the active version.
    > Example usage:
    > ```
    > use-terragrunt --terraform 0.11.8 --terragrunt 0.16.7 --bin-dir /bin
