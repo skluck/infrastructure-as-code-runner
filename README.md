@@ -39,7 +39,7 @@ Provided scripts:
    > Download terragrunt and/or terragrunt versions to use.
    > Example usage:
    > ```
-   > download-terragrunt --terraform 0.11.8 --terragrunt 0.16.7 --bin-dir /bin
+   > use-terragrunt --terraform 0.11.8 --terragrunt 0.16.7 --bin-dir /bin
    > ```
    > `download-terraform` should be used before this script.
 
