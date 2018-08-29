@@ -28,14 +28,14 @@ Provided scripts:
 
 > Note: these scripts are designed to be used from an ephemeral build/ci environment.
 
-- `download-terraform`
+- [download-terraform](scripts/download-terraform.sh)
    > Download terragrunt and/or terragrunt versions to use.
    > Example usage:
    > ```
    > download-terragrunt --terraform 0.11.8 --terragrunt 0.16.7 --bin-dir /bin
    > ```
 
-- `use-terraform`
+- [use-terraform](scripts/use-terraform.sh)
    > Download terragrunt and/or terragrunt versions to use.
    > Example usage:
    > ```
@@ -43,8 +43,8 @@ Provided scripts:
    > ```
    > `download-terraform` should be used before this script.
 
-- `plan-terraform`
+- [plan-terraform](scripts/v2/plan-terraform.sh)
   > TBD
 
-- `apply-terraform`
+- [apply-terraform](scripts/v2/apply-terraform.sh)
   > TBD
